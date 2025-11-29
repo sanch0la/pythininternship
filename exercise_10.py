@@ -3,13 +3,13 @@ import sys
 def main():
 
     x = int(input("Enter a number x:"))
-    y = float(input("Enter a number y:"))
-
-    if type(x) != int or type(y) != float:
-        print ("Invalid type inputs")
+    y= float(x)
 
     print(f"The integer is {x}", )
     print(f"The float is {y}")
+
+    if type(y) != float:
+        print("The type is not float")
 
     return 0
 
