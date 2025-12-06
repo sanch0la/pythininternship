@@ -1,16 +1,17 @@
 import sys
 
-def main():
 
+def main():
     number = int(input("Enter a number: "))
     word = input("Enter a word: ")
 
-    if type(number) != int :
+    if type(number) != int:
         print("The type is not float")
 
     print(f"{word} repeated {number} times")
 
-    
     return 0
+
+
 if __name__ == "__main__":
     sys.exit(main())
