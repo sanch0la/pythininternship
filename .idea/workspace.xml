@@ -81,7 +81,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.exercise_15">
+  <component name="RunManager" selected="Python.exercise_16">
     <configuration name="exercise_13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
@@ -194,8 +194,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exercise_15" />
         <item itemvalue="Python.exercise_16" />
+        <item itemvalue="Python.exercise_15" />
         <item itemvalue="Python.exercise_14" />
         <item itemvalue="Python.prac" />
         <item itemvalue="Python.exercise_13" />
