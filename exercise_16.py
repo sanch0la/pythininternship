@@ -11,7 +11,7 @@ def main():
     print(x)
 
     x = int(input("Enter a number: "))
-    print(x)
+    print(f"x is equal to {x}.")
 
     return 0
 
