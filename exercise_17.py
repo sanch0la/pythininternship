@@ -10,8 +10,8 @@ import sys
 
 
 def main():
-    name = print("My name is Jordan")
-    print(name)
+    v = print("My name is Jordan")
+    print(v)
     return 0
 
 
