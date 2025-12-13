@@ -12,7 +12,13 @@ def main():
     elif word[0] == "A":
         print("False")
     else:
-        print("Retype this word")
+        while word[0] != "a" or word[0] != "A":
+            word  = input("Retype the word: ")
+            if word[0] == "a":
+                print("True")
+            elif word[0] == "A":
+                print("False")
+            break
     return 0
 
 
