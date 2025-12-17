@@ -1,13 +1,13 @@
 import sys
 
+
 def main():
-
-    name  = input("Enter your name bro: ")
-    print(f"Hello <{name}>!")
-
+    word = input("Enter a word: ")
+    print(word.startswith("a") or word.startswith("A"))
 
 
     return 0
 
-if __name__=="__main__":
+
+if __name__ == '__main__':
     sys.exit(main())

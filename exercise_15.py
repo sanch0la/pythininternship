@@ -19,6 +19,7 @@ def main():
             elif word[0] == "A":
                 print("False")
             break
+
     return 0
 
 
