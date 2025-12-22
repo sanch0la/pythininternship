@@ -16,15 +16,19 @@ import sys
 
 
 def main():
-    name = input("What is your name? ")
-    age = int(input("What is your age? "))
-    country = input("What is your country? ")
+    try:
+        name = input("What is your name? ")
+        age = int(input("What is your age? "))
+        country = input("What is your country? ")
+    except ValueError:
+        print("Sorry, I didn't understand your input.")
+        return 0
     profile = [name, age, country]
 
-    print(f"Name: {name}, age: {age}, country: {country}")
+    print(profile)
 
     summary = [profile[0].upper(), profile[1] + 5, profile[2].lower()]
-    print(f"Name: {name}, age: {age}, country: {country}")
+    print(summary)
 
     return 0
 
