@@ -34,7 +34,7 @@ def main():
     (words[2][:1] == "a" or words[2][:1] == "A") and a_words.append(words[2])
     (words[3][:1] == "a" or words[3][:1] == "A") and a_words.append(words[3])
     (words[4][:1] == "a" or words[4][:1] == "A") and a_words.append(words[4])
-    print(f"a_words: {a_words}")
+    print(f"a_words new list is : {a_words}")
 
     return 0
 
