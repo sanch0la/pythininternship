@@ -14,22 +14,12 @@ import sys
 
 def main():
     grades = {"A": 80, "B": 70, "C": 60, "D": 50}
-    grade_letter = input("Enter a grade letter: ")
-    print(grades[grade_letter])
-    try:
-        if grades == "A":
-         print(80)
-        elif grades == "B":
-         print(70)
-        elif grades == "C":
-            print(60)
-        elif grades == "D":
-            print(50)
-    except :
-         print("Invalid grade")
+    grade_letter = input("Enter a grade letter: ").upper()
 
-
-
+    if grade_letter in grades:
+        print(grades[grade_letter])
+    else:
+        print("Invalid grade")
     return 0
 
 
