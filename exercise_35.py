@@ -2,58 +2,39 @@
 Part A
 
 
-Ask the user for:
+Create a dictionary:
+stats = {
+    "count": 10,
+    "average": 4.5,
+    "valid": True
 
-student name
-three test scores (integers)
-Store the scores in a list.
+}
 
 
-
+Print each value individually using key access.
 
 
 
 Part B
 
+Update:
 
-Create a dictionary called student with keys:
-
-"name" → student name
-"scores" → list of scores
-Print the dictionary.
-
-
-
-
-
-
-Part C
-
-
-Compute the average score and add a new key:
-
-"average" → average score (float)
+"count" by increasing it by 5 using compound assignment
+"valid" to False
 Print the final dictionary.
-
 """
 import sys
 
 
 def main():
-    name = input("Enter your name: ")
-    score1 = int(input("Enter your score1: "))
-    score2 = int(input("Enter your score2: "))
-    score3 = int(input("Enter your score3: "))
+    stats = {"count": 10, "average": 4.5, "valid": True}
+    print(stats["count"], stats["average"], stats["valid"])
 
-    scores = [score1, score2, score3]
-    print(name, scores)
+    stats["count"] += 5
+    stats["valid"] = False
 
-    student = {"name": name, "scores": scores}
-    print(student)
+    print(stats)
 
-    average_score = sum(scores) / len(scores)
-    student["average_score"] = average_score
-    print(student)
     return 0
 
 
