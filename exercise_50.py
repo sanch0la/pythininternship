@@ -9,15 +9,17 @@ import sys
 
 
 def main():
-    try:
-        number_a = int(input("Enter a number a: "))
-        number_b = int(input("Enter a number b: "))
-        if number_a and number_b > 0:
-            print("Both positive")
-        else:
-            print("At least one is not positive")
-    except ValueError:
-        print("Please enter a number.")
+    while True:
+        try:
+            number_a = int(input("Enter a number a: "))
+            number_b = int(input("Enter a number b: "))
+            if number_a and number_b > 0:
+                print("Both positive")
+            else:
+                print("At least one is not positive")
+            break
+        except ValueError:
+            print("Please enter a number.")
 
     return 0
 
