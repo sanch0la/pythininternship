@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="170a697d-29c0-4904-abbf-b7963b10a00c" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/exercise_50.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_51.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +98,7 @@
     "Python.exercise_48.executor": "Run",
     "Python.exercise_49.executor": "Run",
     "Python.exercise_50.executor": "Run",
+    "Python.exercise_51.executor": "Run",
     "Python.exercise_6.executor": "Run",
     "Python.exercise_8.executor": "Run",
     "Python.exercise_9.executor": "Run",
@@ -114,29 +115,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.exercise_50">
-    <configuration name="exercise_46" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject10" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise_46.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.exercise_51">
     <configuration name="exercise_47" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
@@ -225,13 +204,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="exercise_51" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise_51.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exercise_51" />
         <item itemvalue="Python.exercise_50" />
         <item itemvalue="Python.exercise_49" />
         <item itemvalue="Python.exercise_48" />
         <item itemvalue="Python.exercise_47" />
-        <item itemvalue="Python.exercise_46" />
       </list>
     </recent_temporary>
   </component>
@@ -249,22 +250,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764180136319</updated>
-    </task>
-    <task id="LOCAL-00021" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1764618622019</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1764618622019</updated>
-    </task>
-    <task id="LOCAL-00022" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1764618918868</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1764618918868</updated>
     </task>
     <task id="LOCAL-00023" summary="initial commit">
       <option name="closed" value="true" />
@@ -642,7 +627,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766987228859</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1766987629626</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1766987629626</updated>
+    </task>
+    <task id="LOCAL-00071" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1766987928875</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1766987928875</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
