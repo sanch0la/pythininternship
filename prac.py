@@ -2,10 +2,8 @@ import sys
 
 
 def main():
-    words = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-    for word in range(len(words)):
-        print(f"{word} == {words[word]}")
-    return 0
+    def print_name(name):
+        my_var = print_name
 
 
 if __name__ == '__main__':
