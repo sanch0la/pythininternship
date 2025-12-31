@@ -11,7 +11,7 @@ import sys
 def main():
     person = {"name": "Alice", "age": 30, "city": "Nairobi"}
     for key,value in person.items():
-        print(key,)
+        print(key)
     return 0
 
 
