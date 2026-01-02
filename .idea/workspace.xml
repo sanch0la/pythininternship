@@ -136,7 +136,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.exercise_74">
+  <component name="RunManager" selected="Python.exercise_73">
     <configuration name="execise_70" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
@@ -225,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercise_74" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="exercise_73" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +238,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise_74.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ADMIN\PycharmProjects\PythonProject10\exercise_73.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,7 +249,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exercise_74" />
+        <item itemvalue="Python.exercise_73" />
         <item itemvalue="Python.exercise_72" />
         <item itemvalue="Python.exercise_71" />
         <item itemvalue="Python.execise_70" />
