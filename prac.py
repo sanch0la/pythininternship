@@ -2,8 +2,19 @@ import sys
 
 
 def main():
-    def print_name(name):
-        my_var = print_name
+    banned_words = ["spam", "scam", "fake"]
+    message = input("Enter your message: ")
+
+    found = False
+
+    for word in banned_words:
+        if word in message:
+            found = True
+            break
+
+    print("Banned word found:", found)
+
+    return 0
 
 
 if __name__ == '__main__':
