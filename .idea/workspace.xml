@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="170a697d-29c0-4904-abbf-b7963b10a00c" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/exercise _78.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_77.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_78py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geek.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scores.txt" afterDir="false" />
+    <list default="true" id="170a697d-29c0-4904-abbf-b7963b10a00c" name="Changes" comment="complete">
+      <change afterPath="$PROJECT_DIR$/exercise_79.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/name.py" beforeDir="false" afterPath="$PROJECT_DIR$/name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_78py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -132,6 +127,7 @@
     "Python.exercise_74.executor": "Run",
     "Python.exercise_75.executor": "Run",
     "Python.exercise_77.executor": "Run",
+    "Python.exercise_79.executor": "Run",
     "Python.exercise_8.executor": "Run",
     "Python.exercise_9.executor": "Run",
     "Python.exrcise_7.executor": "Run",
@@ -148,7 +144,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.exercise _78">
+  <component name="RunManager" selected="Python.exercise_79">
     <configuration name="exercise _78" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
@@ -193,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="name" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="exercise_79" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,7 +202,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/name.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise_79.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exercise_79" />
         <item itemvalue="Python.exercise _78" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.exercise_77" />
         <item itemvalue="Python.prac" />
-        <item itemvalue="Python.name" />
       </list>
     </recent_temporary>
   </component>
@@ -283,30 +279,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764180136319</updated>
-    </task>
-    <task id="LOCAL-00055" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1766611652293</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1766611652293</updated>
-    </task>
-    <task id="LOCAL-00056" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1766612467418</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1766612467419</updated>
-    </task>
-    <task id="LOCAL-00057" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1766612481513</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1766612481513</updated>
     </task>
     <task id="LOCAL-00058" summary="initial commit">
       <option name="closed" value="true" />
@@ -676,7 +648,31 @@
       <option name="project" value="LOCAL" />
       <updated>1767420226458</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="complete">
+      <option name="closed" value="true" />
+      <created>1768026489146</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1768026489146</updated>
+    </task>
+    <task id="LOCAL-00105" summary="complete">
+      <option name="closed" value="true" />
+      <created>1768026576599</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1768026576599</updated>
+    </task>
+    <task id="LOCAL-00106" summary="complete">
+      <option name="closed" value="true" />
+      <created>1768026626243</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1768026626243</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -693,6 +689,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete" />
   </component>
 </project>
