@@ -21,8 +21,8 @@ def main():
         result = math.sqrt(length1 ** 2 + length2 ** 2)
         return result
 
-    mystery_function(4, 3)
-    print(mystery_function(4, 3))
+    mystery_function(4.1, 3.1)
+    print(mystery_function(4.1, 3.1))
 
     return 0
 
