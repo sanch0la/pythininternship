@@ -12,6 +12,7 @@ def main():
     greet(name="John", greeting="Hello")
     greet('John')
     return 0
+#Works because greetin has a default arguement
 
 
 if __name__ == '__main__':
