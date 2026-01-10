@@ -2,17 +2,32 @@ import sys
 
 
 def main():
-    banned_words = ["spam", "scam", "fake"]
-    message = input("Enter your message: ")
+    highest_score = -1
+    top_name = ""
 
-    found = False
+    # Open the file safely
+    with open("scores.txt", "r") as file:
+        first_line = True
 
-    for word in banned_words:
-        if word in message:
-            found = True
-            break
+        # Iterate over each line
+        for line in file:
+            if first_line:
+                first_line = False
+                continue  # skip header
 
-    print("Banned word found:", found)
+            # Extract name and score
+            parts = line.strip().split(",")
+            name = parts[0]
+            score = int(parts[1])  # numeric conversion
+
+            # Track highest score
+            if score > highest_score:
+                highest_score = score
+                top_name = name
+
+    # Print result
+    print("Top scorer:", top_name)
+    print("Highest score:", highest_score)
 
     return 0
 
