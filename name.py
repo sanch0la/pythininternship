@@ -2,10 +2,9 @@ import sys
 
 def main():
 
-    name  = input("Enter your name bro: ")
-    print(f"Hello <{name}>!")
-
-
+    sentence = "Success is sweet"
+    quote = sentence.split()
+    print(quote)
 
     return 0
 
