@@ -23,6 +23,14 @@ def main():
 
     print(f"The tax is {apply_tax(transactions)}")
 
+    def total_payment(transactions):
+        total = sum(transactions) + apply_tax(transactions)
+        return total
+
+    total_payment(transactions)
+
+    print(f"The total payment is {total_payment(transactions)}")
+
     return 0
 
 
