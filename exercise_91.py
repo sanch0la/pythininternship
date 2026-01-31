@@ -11,7 +11,7 @@ def main():
         else:
             return "Fail"
     grade_label(49)
-    print(grade_label(9))
+    print(grade_label(49))
     return 0
 
 
