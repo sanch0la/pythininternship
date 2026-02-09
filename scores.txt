@@ -1,4 +1,3 @@
-name,score
 Alice,72
 Brian,55
 Cynthia,88

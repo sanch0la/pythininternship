@@ -1,0 +1,9 @@
+Up to this point we have entered data into our programs either literally (i.e., hardwired into the
+code when the code is written) or obtained it from the user via an input() statement.
+However,we often need to work with data stored in a file.
+Furthermore, rather than displaying results on thescreen, sometimes the desired action is to store the results in a file.
+In this chapter we explore thereading and writing of files.
+In general, the content of a file is in the form of (readable) text or in
+the form of binary or “raw” data.
+In this chapter we will only consider the reading and writing of
+text, i.e., files that consist of characters from the ASCII character set
